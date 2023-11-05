@@ -1,0 +1,202 @@
+body
+{
+    overflow-y: scroll;
+    background-color: rgb(75, 72, 72);
+    color: rgb(225, 216, 216);
+}
+.main .title h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    margin-left: 40px;
+}
+.main .navigation ul
+{  
+    margin-left: 650px;
+}
+.main .navigation ul li
+{
+    float: left;
+    padding: 20px;
+    font-size: 20px;
+    list-style-type:none;
+    padding-bottom: 90px;
+}
+.banner{
+	width: 100%;
+    margin-left: 480px;
+	float: left;
+	margin-top: 26px;
+}
+.banner h1 {
+	font-size: 48px;
+	margin-top: 10px;
+	font-weight: bolder;
+}
+.banner h2 {
+	font-size: 20px;
+	line-height: 25px;
+	margin-top: 10px;
+	font-weight: 400;
+}
+.banner a {
+	float: left;
+	text-decoration: none;
+	font-size: 18px;
+	margin-top: 20px;
+	border-radius: 50%;
+	text-align: center;
+	border: 2px solid #d4c29c;
+	color: #ffbf35;
+	margin-left: 10px;
+	height: 40px;
+	width: 40px;
+	line-height: 50px;
+}
+.banner a i {
+	color: azure;
+    padding: 8px;
+}
+.main .intro h1
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    color: aqua;
+}
+.main .intro p
+{
+    text-align: center;
+    font-size: 30px;
+}
+.main .intro button
+{
+    padding: 10px 20px;
+    margin-left: 44%;
+}
+.main .about h1
+{   margin-top: 238px;
+    text-align: center;
+}
+.main .about p
+{
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+.main .pro 
+{
+    display: flex;
+    margin-left: 240px;
+}
+.main .pro .project img
+{
+    width: 56%;
+}
+.main .skillset h1
+{
+    text-align: center;
+}
+.skill {
+	font-size: 17px;
+    width: 60%;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+.skill span {
+	float: right;
+}
+.skill div {
+	width: 100%;
+	float: left;
+	margin-top: 5px;
+	background: #f6efef;
+	border-radius: 10px;
+}
+.skill div span {
+	background: aqua;
+	height: 5px;
+	float:left;
+    display: flex;
+    margin-top: 2px;
+}
+.circle
+{
+    margin-left: 185px;
+}
+div[role="progressbar"] {
+	color: aqua;
+	margin-left: 100px;
+	margin-bottom: 20px;
+    padding: 10px;
+	width: 100px;
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+	height: 100px;
+	border-radius: 50%;
+	place-items: center;
+	display: grid;
+	--pgPercentage: var(--value);
+	background: radial-gradient(closest-side, black 80%, transparent 0 99.9%, black 0),
+		conic-gradient(aqua calc(var(--pgPercentage) * 1%), #e8e6e1 0);
+}
+.contact 
+{
+    margin-top: 280px;
+}
+.contact form {
+	width: 66%;
+	margin: 0px auto;
+}
+.contact input,textarea {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+	height: 40px;
+	padding: 10px;
+	border: 1px solid #a1a1a1;
+}
+.contact textarea {
+	height: 80px;
+}
+.contact button {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+	height: 40px;
+	padding: 10px;
+	background: aqua;
+	color: #fff;
+	border: none;
+	font-size: 16px;
+}
+.icons .fa
+{
+    color: aqua;
+    font-size: 40px;
+    align-items: center;
+    margin-left: 48%;
+}
+.icons p
+{
+    color:rgb(250, 247, 247);
+    font-size: 20px;
+    text-align: center;
+}
+.icons a
+{
+    color: rgb(249, 245, 245);
+    font-size: 20px;
+}
+.copyrights p
+{
+    text-align: right;
+}
+
+
+
+
+
+
